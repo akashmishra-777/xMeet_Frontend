@@ -7,7 +7,7 @@ export default function ForgetPassword(){
     <div className="bg-blue-700 h-screen grid  md:grid-cols-1 lg:grid-cols-2">
         
         <div className="bg-[#F7F9FA] col-span-1  justify-center items-center hidden lg:flex ">
-            <img src="public/loginImg.png " className="scale-[.7]" alt="Image Not found" />
+            <img src="/loginImg.png " className="scale-[.7]" alt="Image Not found" />
         </div>
 
         <div className=" bg-[white]  col-span-1 flex justify-center items-center flex-col">
