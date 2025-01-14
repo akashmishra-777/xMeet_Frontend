@@ -1,4 +1,5 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
@@ -13,9 +14,9 @@ export default function Home() {
 
         <button className="bg-[#0B5CFF] rounded-[6px] shadow-xl text-white px-4 w-[250px] hover:bg-[#0D68D8]  p-2">Join Meeting</button>
 
-            <button className="rounded-[6px] text-[#0D213F] border border-[grey]  bg-white px-4 w-[250px] hover:bg-[#EFEFF4] shadow-md p-2">
+            <Link to="/sign-in" className="rounded-[6px] text-center text-[#0D213F] border border-[grey]  bg-white px-4 w-[250px] hover:bg-[#EFEFF4] shadow-md p-2">
            
-            Sign In</button>
+            Sign In</Link>
 
         </div>
 
@@ -51,7 +52,7 @@ export default function Home() {
 
 
     <div className="flex justify-center mt-[10px] ">
-    <a href="" className="text-[#0B5CFF] hover:text-[blue] text-center  w-[100%] select-none flex justify-center items-center gap-2">
+    <a href="https://github.com/akashmishra-777/xMeet_Frontend" className="text-[#0B5CFF] hover:text-[blue] text-center  w-[100%] select-none flex justify-center items-center gap-2">
     
     Our GitHub Page<FaExternalLinkAlt/></a>
     </div>
